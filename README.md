@@ -1,1 +1,3 @@
-Hi, I'm a third year mater student in CG&CAD lab, Zhejiang University.
+你好，我是王欢，目前就读于福州大学电气工程与自动化学院。我的研究方向包括全光纤电流传感器、高电压传感、计算成像、动态三维视觉与无线通信。
+
+本仓库用于维护我的个人学术主页。
