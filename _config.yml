@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Pengkai Dou"
+locale                   : "zh-CN"
+title                    : "王欢"
 title_separator          : "-"
-name                     : &name "Pengkai Dou"
-description              : &description "Computational imaging, dynamic structured-light 3D reconstruction, and learning-based vision."
-url                      : https://pkdou.github.io # the base hostname & protocol for your site
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "pkDou/pkDou.github.io"
+name                     : &name "王欢"
+description              : &description "福州大学电气工程及其自动化学院，研究方向包括全光纤电流传感器、高电压传感、计算成像、动态三维视觉与无线通信。"
+url                      : https://1xiaowang1.github.io # the base hostname & protocol for your site
+baseurl                  : "/Introduction" # the subpath of your site, e.g. "/blog"
+repository               : "1xiaowang1/Introduction"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,17 +80,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Pengkai Dou"
-  avatar           : "dpk.jpg"
+  name             : "王欢"
+  avatar           : "wanghuan.jpg"
   avatar_des       : ""
-  bio              : "Computational imaging and dynamic 3D vision."
-  location         : "Beijing, China"
+  bio              : "全光纤电流传感器、高电压传感、计算成像、动态三维视觉与无线通信。"
+  location         : "福州, 中国"
   pixiv            :
   bilibili         : 
-  employer         : "Beihang University"
+  employer         : "福州大学"
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=6Ti4b3oAAAAJ&hl=zh-CN"
-  email            : "d2311028@163.com"
+  googlescholar    : "https://scholar.google.com/citations?user=o_OqWwcAAAAJ&hl=zh-CN"
+  email            : "wh_zzuli@126.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -99,14 +99,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "pkDou"
+  github           : "1xiaowang1"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      :
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0009-0006-7783-2683"
+  orcid            : "https://orcid.org/0009-0005-0045-6520"
   pinterest        :
   soundcloud       :
   stackoverflow    :

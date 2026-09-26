@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
+title: "个人简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,56 +8,72 @@ redirect_from:
   - /resume
 ---
 
-<p class="page__lead">Researcher in computational imaging, dynamic structured-light 3D reconstruction, and learning-based vision.</p>
+<p class="page__lead">全光纤电流传感器、高电压传感、计算机视觉检测与无线通信方向研究人员。</p>
 
-## Education
+## 教育经历
 
-### Beihang University · Beijing, China
+### 福州大学 · 福州，中国
 
-**School of Instrument Science and Optoelectronic Engineering** · Current student
+**电气工程与自动化学院** · 当前在读
 
-### Henan University of Technology · Zhengzhou, China
+### 郑州轻工业大学 · 郑州，中国
 
-**College of Information Science and Engineering** · Computer Technology, 2022–2025
+**计算机科学与技术学院** · 计算机技术，2022–2025
 
-## Research Interests
+## 研究方向
 
-- Dynamic structured-light 3D imaging
-- Motion compensation and pixel-wise phase-error estimation
-- Deep learning for 3D reconstruction and neural representations
+- 全光纤电流传感器
+- 高电压传感
+- 计算机视觉检测
+- 无线通信
+- 迭代学习控制
+- 网络控制系统
+- 多智能体系统
 
-## Selected Publication
+## 论文成果
 
-Li, P., **Dou, P.**, Su, Z., Lu, L., & Pan, W. (2025). *Deep transformer-enhanced dynamic structured light for three-dimensional moving object imaging*. **Optics Express, 33**(25), 52084–52104. [DOI](https://doi.org/10.1364/OE.579307){:target="_blank" rel="noopener noreferrer"} · [PDF](/files/pkDou_OE.pdf){:target="_blank" rel="noopener noreferrer"}
+- Huang, L., **Wang, H.**, Chen, H., et al. (2026). Convergence of multi-agent systems controlled by iterative learning strategies with continuous data losses. *Transactions of the Institute of Measurement and Control, 48*(5), 943–956.
+- Huang, L., **Wang, H.**, Sun, L., et al. (2025). Optimal filters for the input conveyed by controllers using iterative learning strategies with alternating data losses and fading. *Asian Journal of Control, 27*(6), 2879–2893.
+- Huang, L., **Wang, H.**, Sun, L., et al. (2024). Method for predicting the lost input of iterative learning control systems over AWGN channels. *Journal of Difference Equations and Applications, 30*(12), 1885–1899.
 
-## Research Experience
+## 科研经历
 
-- Built a structured-light 3D measurement system using a DLP4500 projector and Revealer M120 high-speed camera, including control and calibration software.
-- Developed a Transformer-based dynamic measurement pipeline with correspondence tracking, motion compensation, and pixel-wise phase-error estimation.
-- Explored neural implicit surface reconstruction by combining structured-light phase information with differentiable rendering methods such as NeuS.
+- 围绕全光纤电流传感器与高电压传感开展研究，关注电力系统中的电流测量、传感结构设计、信号检测与性能优化问题。
+- 关注计算成像、计算机视觉检测与动态三维视觉，探索复杂场景下的图像理解、目标感知与三维信息恢复方法。
+- 硕士阶段围绕迭代学习控制、网络控制系统、多智能体系统与无线通信开展研究，关注网络环境下的协同控制与信息传输问题。
 
-## Conference Presentation
+## 项目经历
 
-- **Robust measurement of objects in 3-D motion with pixel-wise motion-compensated phase-shifting profilometry.** ISMTII & ICOIM 2025, Wuhan, China. Poster presentation.
+- 亿推文平台（横向），河南从航网络科技有限公司，2022年–2023年
+- 噪声干扰下网络迭代学习控制系统的收敛性（纵向），河南省科技攻关项目，2022年–2025年
+- 输电线路机巡巡检策略与缺陷诊断机制研究（横向），国网福建省电力有限公司科技项目，2025年–2026年
+- 基于屏障效应的环境友好型气固复合电气绝缘（纵向），国家自然科学基金，2025年–2026年
+- 输电智能运检架空线路健康状态研究（横向），国网福建省电力有限公司科技项目，2026年–2027年
 
-## Selected Intellectual Property
+## 学术会议报告
 
-- *Three-dimensional reconstruction method, apparatus, device, and computer-readable storage medium for moving objects.* Chinese patent application, CN202510973199.4. Co-inventor.
-- *Deep learning-based multi-projector synchronized structured-light 3D reconstruction method and system.* Chinese patent application, CN202411486689.3. Co-inventor.
-- Software copyrights: Monocular Structured-light 3D Measurement Calibration System V1.0; High-precision Structured-light 3D Measurement System V1.0; High-frame-rate Fringe Projection Control System V1.0.
+暂无，后续补充。
 
-## Honors
+## 知识产权
 
-- National Scholarship, 2022–2023
-- Provincial Second Prize, 9th China International College Students’ “Internet+” Innovation and Entrepreneurship Competition, 2023–2024
-- Third Prize, Mathematical Modeling Competition, Henan University of Technology, 2023–2024
+暂无，后续补充。
 
-## Technical Skills
+## 荣誉奖励
 
-- **Programming:** Python, C++, Java, MATLAB
-- **Machine learning:** PyTorch
-- **Optical systems:** structured-light projection, camera synchronization, and calibration
+- 2023年，获得第十三届 APMCM 亚太地区大学生数学建模竞赛三等奖
+- 2023年，获得全国大学生英语翻译大赛省级二等奖
+- 2023年，获得第二届“清华社杯”大学生算法大赛优秀奖
+- 2024年，获得学业奖学金
+- 2024年，获得全国大学生英语作文大赛省赛三等奖
+- 2024年，获得 MathorCup 高校数学建模竞赛挑战赛-大数据竞赛三等奖
+- 2024年，获得美国大学生数学建模优秀奖
+- 2026年，获得助研奖学金
 
-## Contact
+## 技术技能
 
-Email: [d2311028@163.com](mailto:d2311028@163.com) · [Google Scholar](https://scholar.google.com/citations?user=6Ti4b3oAAAAJ&hl=zh-CN){:target="_blank" rel="noopener noreferrer"}
+- **编程语言：** Python、C++、Java、MATLAB
+- **机器学习：** PyTorch
+
+## 联系方式
+
+Email: [wh_zzuli@126.com](mailto:wh_zzuli@126.com) · [Google Scholar](https://scholar.google.com/citations?user=o_OqWwcAAAAJ&hl=zh-CN){:target="_blank" rel="noopener noreferrer"} · [ORCID](https://orcid.org/0009-0005-0045-6520){:target="_blank" rel="noopener noreferrer"}
