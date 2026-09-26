@@ -1,0 +1,19 @@
+{% assign publication = include.post %}
+<article class="publication-card" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  {% if publication.thumbnail %}
+    <a class="publication-card__visual" href="{{ base_path }}{{ publication.paperurl }}" target="_blank" rel="noopener noreferrer" aria-label="Open PDF for {{ publication.title }}">
+      <img src="{{ base_path }}{{ publication.thumbnail }}" alt="{{ publication.thumbnail_alt | default: publication.title }}" loading="lazy">
+    </a>
+  {% endif %}
+  <div class="publication-card__content">
+    <p class="publication-card__type">Journal article · {{ publication.year }}</p>
+    <h2 class="publication-card__title" itemprop="headline">{{ publication.title }}</h2>
+    {% if publication.authors %}<p class="publication-card__authors">{{ publication.authors }}</p>{% endif %}
+    <p class="publication-card__venue"><em>{{ publication.venue }}</em>{% if publication.volume %}, {{ publication.volume }}{% endif %}{% if publication.issue %}({{ publication.issue }}){% endif %}{% if publication.pages %}, {{ publication.pages }}{% endif %}.</p>
+    {% if publication.excerpt %}<p class="publication-card__abstract">{{ publication.excerpt }}</p>{% endif %}
+    <div class="publication-card__actions">
+      {% if publication.paperurl %}<a class="btn btn--primary" href="{{ base_path }}{{ publication.paperurl }}" target="_blank" rel="noopener noreferrer">Read paper <span class="sr-only">(PDF, opens in a new tab)</span><span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.doi %}<a class="publication-card__doi" href="{{ publication.doi }}" target="_blank" rel="noopener noreferrer">DOI <span aria-hidden="true">↗</span></a>{% endif %}
+    </div>
+  </div>
+</article>

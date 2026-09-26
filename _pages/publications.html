@@ -1,0 +1,17 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+<p class="page__lead">Selected work in computational imaging and dynamic 3D reconstruction.</p>
+<p class="publication-intro">For the complete record, visit <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">my Google Scholar profile <span aria-hidden="true">↗</span></a>.</p>
+
+{% include base_path %}
+
+<div class="publication-list">
+  {% for post in site.publications reversed %}
+    {% include publication-card.html post=post %}
+  {% endfor %}
+</div>
