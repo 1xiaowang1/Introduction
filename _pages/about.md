@@ -2,7 +2,7 @@
 layout: single
 permalink: /
 title: "王欢"
-excerpt: "硕士阶段主要研究迭代学习控制、网络控制系统、多智能体系统与无线通信；博士阶段主要研究计算机视觉检测、动态三维视觉、无线通信、全光纤电流传感器与高电压技术。"
+excerpt: "硕士阶段主要研究迭代学习控制、网络控制系统、多智能体系统与无线通信；博士阶段主要研究计算机视觉检测、无线通信、全光纤电流传感器与高电压技术。"
 author_profile: true
 redirect_from:
   - /about/
@@ -10,10 +10,10 @@ redirect_from:
 ---
 
 <div class="home-intro">
-  <p class="home-intro__eyebrow">光纤传感 · 高电压传感 · 计算成像 · 三维视觉 · 无线通信</p>
+  <p class="home-intro__eyebrow">光纤传感 · 高电压传感 · 计算视觉检测 · 无线通信</p>
   <p class="page__lead">我是王欢，目前就读于福州大学电气工程及其自动化学院。</p>
-  <p>我的主要研究方向包括全光纤电流传感器、高电压传感、计算成像、动态三维视觉与无线通信。</p>
-  <p>此前，我就读于郑州轻工业大学并获得硕士学位。硕士阶段主要关注迭代学习控制、网络控制系统、多智能体系统与无线通信；博士阶段的研究方向进一步拓展到全光纤电流传感器、高电压传感、计算成像与动态三维视觉等方向。</p>
+  <p>我的主要研究方向包括全光纤电流传感器、高电压传感、计算视觉检测与无线通信。</p>
+  <p>此前，我就读于郑州轻工业大学并获得硕士学位。硕士阶段主要关注迭代学习控制、网络控制系统、多智能体系统与无线通信；博士阶段的研究方向进一步拓展到全光纤电流传感器、高电压传感、计算视觉检测等方向。</p>
  <div class="home-intro__actions">
     <a class="btn btn--primary" href="/publications/" data-page-navigation>查看论文</a>
     <a class="btn btn--inverse" href="https://scholar.google.com/citations?user=o_OqWwcAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Google学术 <span aria-hidden="true">↗</span></a>
